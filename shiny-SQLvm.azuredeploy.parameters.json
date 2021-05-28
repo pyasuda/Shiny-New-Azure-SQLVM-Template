@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "virtualMachineName": {
-      "value": "SHINY-VM-1"
+      "value": "SHINY-SQLVM-1"
     },
     "virtualMachineSize": {
-      "value": "Standard_D2s_v4"
+        "value": "Standard_D2s_v3"
     },
     "adminPassword": {
       "value": "<8 - 123 chars, including upper case, lower case, a number, a special character - DON'T COMMIT THE PASSWORD TO GITHUB>"
@@ -21,13 +21,16 @@
       "value": "rg-AzureMigrateTest-mpn-001"
     },
     "enableAcceleratedNetworking": {
-      "value": true
+      "value": false
+    },
+    "sqlSku": {
+      "value": "SQLDEV"
     },
     "resourceTags": {
         "value": {
-          "Environment": "TEST-DEPLOYMENT",
-          "Service": "IIS",
-          "VMName": "SHINY-VM-1"
+          "Environment": "TEST",
+          "Service": "MSSQL",
+          "VMName": "SHINY-SQLVM-1"
         }
     }
   }
