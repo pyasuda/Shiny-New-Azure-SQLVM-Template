@@ -2,7 +2,7 @@
 Template for an Azure SQL Server VM from a SQL-WS image offer
 These parameters are not included in the accompanying parameters file, but can be adde - default value shown:
 1. imageOffer *sql2019-ws2019*
-3. adminUsername <VirtualMachineName>*-admin*
+3. adminUsername \<VirtualMachineName\>*-admin*
 4. storageWorkloadType *General*
 5. dataPath *F:\\SQLData*
 6. location (Extracted from Resource Group)
