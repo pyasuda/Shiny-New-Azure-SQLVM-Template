@@ -9,7 +9,7 @@
         "value": "Standard_D2s_v3"
     },
     "adminPassword": {
-      "value": "<8 - 123 chars, including upper case, lower case, a number, a special character - DON'T COMMIT THE PASSWORD TO GITHUB>"
+      "value": "C644qn$W%2FG&"
     },
     "existingVirtualNetworkName": {
       "value": "vnet-AzureMigrateTest-mpn-eastus-001"
@@ -25,6 +25,12 @@
     },
     "sqlSku": {
       "value": "SQLDEV"
+    },
+    "dataDiskSizeGB": {
+      "value": 256
+    },
+    "dataDiskStorageAccountType": {
+      "value": "StandardSSD_LRS"
     },
     "resourceTags": {
         "value": {
