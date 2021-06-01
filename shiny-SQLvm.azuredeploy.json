@@ -199,7 +199,10 @@
         "name": "[variables('publicIpAddressSku')]"
       },
       "properties": {
-        "publicIpAllocationMethod": "[variables('publicIpAddressType')]"
+        "publicIpAllocationMethod": "[variables('publicIpAddressType')]",
+        "dnsSettings": {
+          "domainNameLabel": "[toLower(parameters('virtualMachineName'))]"
+        }
       }
     },
     {
@@ -320,6 +323,10 @@
     "adminUsername": {
       "type": "String",
       "value": "[parameters('adminUsername')]"
+    },
+    "FQDN": {
+      "type": "string",
+      "value": "[reference(resourceId('Microsoft.Network/publicIpAddresses',variables('publicIpAddressName'))).dnsSettings.FQDN]"
     }
   }
 }
