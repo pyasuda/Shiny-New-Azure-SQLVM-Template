@@ -201,7 +201,7 @@
       "properties": {
         "publicIpAllocationMethod": "[variables('publicIpAddressType')]",
         "dnsSettings": {
-          "domainNameLabel": "[parameters('virtualMachineName')]"
+          "domainNameLabel": "[toLower(parameters('virtualMachineName'))]"
         }
       }
     },
