@@ -26,6 +26,12 @@
     "sqlSku": {
       "value": "SQLDEV"
     },
+    "dataDiskSizeGB": {
+      "value": 256
+    },
+    "dataDiskStorageAccountType": {
+      "value": "StandardSSD_LRS"
+    },
     "resourceTags": {
         "value": {
           "Environment": "TEST",
