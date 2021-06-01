@@ -1,6 +1,6 @@
 # Shiny-New-Azure-SQLVM-Template
-Template for an Azure SQL Server VM from a SQL-WS image offer
-Data drive for SQL data and logs; TempDB on the D: drive
+Template for an Azure SQL Server VM from a SQL-WS image offer, with a 
+data drive for SQL data and logs, and TempDB on the D: drive
 These parameters are not included in the accompanying parameters file, but can be added - default value shown:
 1. imageOffer *sql2019-ws2019*
 3. adminUsername \<VirtualMachineName\>*-admin*
