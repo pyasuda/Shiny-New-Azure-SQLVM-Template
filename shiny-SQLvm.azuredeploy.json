@@ -327,10 +327,6 @@
     "FQDN": {
       "type": "string",
       "value": "[reference(resourceId('Microsoft.Network/publicIpAddresses',variables('publicIpAddressName'))).dnsSettings.FQDN]"
-    },
-    "PublicIPAddress": {
-      "type": "string",
-      "value": "[reference(variables('publicIpAddressName')).ipAddress]"
     }
   }
 }
