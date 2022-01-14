@@ -12,8 +12,7 @@ These parameters are not included in the accompanying parameters file, but can b
 
 These settings can only be changed in the azuredeploy.json file
 1. Names of resources
-2. Dynamic public and private IP addresses
-3. tempDbPath *D:\\SQLTemp*
+2. tempDbPath *D:\\SQLTemp*
 3. StandardSSD_LRS OS disk 
 4. Image version latest
 5. Eastern Standard Time time zone
